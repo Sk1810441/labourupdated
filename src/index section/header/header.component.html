@@ -1,0 +1,38 @@
+
+  <header class="ld_header_section">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 logo_div">
+        <div class="ld_logo">
+           <a class="labour_logo"> 
+            <img src="assets/images/logo.png" alt="labour-directory-logo">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-4 col-xs-2 menu_div">
+        <div class="menu_toggle"><span></span><span></span><span></span></div>
+        <nav class="ld_menu_wrapper">
+          <div class="menu_close"><span></span><span></span></div>
+          <ul class="ld_nav">
+            <!-- <li class="active"><a routerLink="/">Home</a></li> -->
+            <li><a [routerLink]="['/main-page']">Home</a></li>
+            <li><a [routerLink]="['/category']">Category</a></li>
+            <li><a [routerLink]="['/about']">About</a></li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+            <li><a [routerLink]="['/registaion']">Registation</a></li>
+  
+          </ul>
+        </nav>
+       
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 search_div">
+        <div class="ld_right_menu">
+          <form class="search-form">
+            <input type="text" class="search_input">
+            <a href="#" class="search_btn"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header><!-- ======= Header section ========= -->
